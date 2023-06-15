@@ -3,14 +3,20 @@
     padding: 0;
 }
 
+/* CONTENEDOR PRINCIPAL */
+
 #container-body {
     max-width: 1000px;
     margin:auto
 }
 
+/* JUMBOTRON */
+
 #container-jumbotron {
     background-color: rgb(236, 232, 232);
 }
+
+/* COLUMNAS DE LAS CARDS */
 
 .col-3{
     display: flex;
