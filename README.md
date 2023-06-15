@@ -1,42 +1,40 @@
-# Hello World with React boilerplate
+Este repositorio contiene una colección de componentes de React para un sitio web. Estos componentes incluyen una barra de navegación (navbar), un jumbotron, una tarjeta (card) y un pie de página (footer).
 
-Start coding a react application
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
 
-## How to start coding?
+![image](https://github.com/Toni369-vs/ReactLandingPage/assets/125910370/e6e2f4e0-6836-45e6-b0bd-b39d15621fe4)
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
 
-## Local Installation (skip if you are working on codespaces or gitpod)
+Componentes:
 
-Download the boilerplate using git
+Navbar
+El componente Navbar representa la barra de navegación del sitio web. Muestra un logotipo de marca y un menú desplegable para los enlaces de navegación.
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+Readme de Componentes de React
+Este repositorio contiene una colección de componentes de React para un sitio web. Estos componentes incluyen una barra de navegación (navbar), un jumbotron, una tarjeta (card) y un pie de página (footer).
 
-## Publish your website!
+Jumbotron
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+El componente Jumbotron muestra una sección introductoria grande en el sitio web. Incluye un encabezado, una descripción y un botón de llamada a la acción.
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+Card
 
-## Other features
+El componente Card representa un elemento de tarjeta con una imagen, título, descripción y un botón.
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
 
-### Contributors
+Card
+El componente Card representa un elemento de tarjeta con una imagen, título, descripción y un botón.
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+Estilos
 
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+Los componentes tienen clases CSS y estilos asociados para personalización. Se utilizan las siguientes reglas CSS:
+
+#head: Estilos para la sección del encabezado.
+#container-body: Estilos para el contenedor principal del sitio web.
+#container-jumbotron: Estilos para el componente jumbotron.
+.col-3: Estilos para las columnas de las tarjetas.
+#container-footer: Estilos para el componente del pie de página.Créditos
+
+
+Este proyecto fue creado por Antonio Centenera Mayoral.
